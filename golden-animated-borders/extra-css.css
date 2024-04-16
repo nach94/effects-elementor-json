@@ -1,0 +1,20 @@
+.card:hover::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(180deg, transparent, transparent, #D4AF37, transparent);
+    animation: border 2s linear infinite;
+    filter: blur(5px);
+}
+@keyframes border{
+    from{
+        transform: translatey(100%);
+    }
+    to{
+        transform: translatey(-200%);
+    }
+
+}

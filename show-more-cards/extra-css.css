@@ -1,0 +1,10 @@
+.show-more *{
+    display: flex;
+    flex-direction: column-reverse;
+}
+#elementor-tab-title-1701, #elementor-tab-title-2211, #elementor-tab-title-1301{
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    border-radius: 50px;
+    padding: .5em 2em .5em 2em;
+}
